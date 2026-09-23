@@ -47,9 +47,7 @@ Error generating stack: `+s.message+`
   @media(min-width:640px){.lv-services{padding:8rem 3rem;}}
   .lv-services *{box-sizing:border-box;}
   .lv-services__glow{position:absolute;top:-6rem;left:50%;transform:translateX(-50%);width:600px;max-width:90%;height:300px;background:rgba(245,158,11,.06);filter:blur(120px);border-radius:9999px;pointer-events:none;z-index:0;}
-  .lv-services__head{position:relative;z-index:1;max-width:48rem;margin:0 0 5rem;}
-  .lv-services__eyebrow{display:block;font-family:ui-monospace,'SFMono-Regular',Menlo,monospace;font-size:.7rem;letter-spacing:.28em;text-transform:uppercase;color:rgba(253,230,138,.7);margin-bottom:1rem;}
-  .lv-services__title{font-family:'LeMurmure',Georgia,'Times New Roman',serif;font-weight:400;font-size:clamp(2.5rem,6vw,4rem);line-height:1;letter-spacing:-.02em;color:#f5f5f5;margin:0 0 1.25rem;}
+  .lv-services__head{position:relative;z-index:1;max-width:48rem;margin:0 0 5rem;}  
   .lv-services__intro{font-size:1.05rem;line-height:1.7;color:#a3a3a3;max-width:38rem;margin:0;}
   .lv-services__groups{position:relative;z-index:1;display:flex;flex-direction:column;gap:4rem;}
   .lv-group__header{display:flex;align-items:baseline;justify-content:space-between;gap:1rem;border-bottom:1px solid rgba(255,255,255,.14);padding-bottom:1rem;margin-bottom:2rem;}
@@ -133,8 +131,8 @@ Error generating stack: `+s.message+`
       '<section id="services" class="lv-services" aria-labelledby="lv-services-title">' +
         '<div class="lv-services__glow" aria-hidden="true"></div>' +
         '<header class="lv-services__head">' +
-          '<span class="lv-services__eyebrow">[ What I Offer ]</span>' +
-          '<h2 id="lv-services-title" class="lv-services__title">Services</h2>' +
+          '<span class="text-[0.7rem] font-medium uppercase tracking-[0.3em] text-neutral-500">What I Offer</span>' +
+          '<h2 id="lv-services-title" class="mt-6 text-balance font-serif text-[clamp(3rem,7.5vw,6.75rem)] leading-[1.02] tracking-[-0.01em] text-neutral-50">Services</h2>' +
           '<p class="lv-services__intro">Considered, end-to-end solutions for your brand\u2019s digital presence \u2014 from identity and web design to generative, answer and local search optimization.</p>' +
         '</header>' +
         '<div class="lv-services__groups">' + groupsHTML + '</div>' +
