@@ -16,8 +16,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/assets/Liana-Voinea-Web-Design-Brand-SEO-og.png",
-        width: 1920, // Recomandat standard 1200x630 (sau 1920x911 specificat de tine)
-        height: 911,
+        width: 1200, // Recomandat standard 1200x630 (sau 1920x911 specificat de tine)
+        height: 630,
         alt: "Liana Voinea — Web Design, Brand & SEO",
       },
     ],
