@@ -10,11 +10,25 @@ export const metadata: Metadata = {
     apple: "/favicon.png",
   },
   openGraph: {
-    images: ["/assets/Liana-Voinea-Web-Design-Brand-SEO-og.png"],
+    title: "Liana Voinea — Web Design, Brand & SEO",
+    description:
+      "Quick-start your digital presence in the age of AI. From Brand Identity and Web Design to SEO and GEO, build a system to find your ideal clients and thrive.",
+    images: [
+      {
+        url: "/assets/Liana-Voinea-Web-Design-Brand-SEO-og.png",
+        width: 1920, // Recomandat standard 1200x630 (sau 1920x911 specificat de tine)
+        height: 911,
+        alt: "Liana Voinea — Web Design, Brand & SEO",
+      },
+    ],
+    type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://bolt.new/static/og_default.png"],
+    title: "Liana Voinea — Web Design, Brand & SEO",
+    description:
+      "Quick-start your digital presence in the age of AI. From Brand Identity and Web Design to SEO and GEO, build a system to find your ideal clients and thrive.",
+    images: ["/assets/Liana-Voinea-Web-Design-Brand-SEO-og.png"],
   },
 }
 
