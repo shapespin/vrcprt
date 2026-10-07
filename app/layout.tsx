@@ -28,6 +28,9 @@ export const metadata: Metadata = {
       "Quick-start your digital presence in the age of AI. From Brand Identity and Web Design to SEO and GEO, build a system to find your ideal clients and thrive.",
     images: ["https://design.lianavoinea.com/assets/Liana-Voinea-Web-Design-Brand-SEO-og.png"],
   },
+  facebook: {
+    appId: "1234567890", // Pune un ID real dacă ai cont Facebook Developer, sau un ID fictiv de 10-15 cifre
+  },
 }
 
 export const viewport: Viewport = {
