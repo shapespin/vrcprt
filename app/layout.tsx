@@ -2,7 +2,6 @@ import type { Metadata, Viewport } from "next"
 import type { ReactNode } from "react"
 
 export const metadata: Metadata = {
-  // metadataBase obligă Next.js să transforme toate căile relative în URL-uri absolute complete
   metadataBase: new URL("https://design.lianavoinea.com"),
   title: "Liana Voinea — Web Design, Brand & SEO",
   description:
@@ -19,22 +18,15 @@ export const metadata: Metadata = {
     siteName: "Liana Voinea",
     locale: "en_US",
     type: "website",
-    images: [
-      {
-        url: "/assets/Liana-Voinea-Web-Design-Brand-SEO-og.png",
-        width: 1200,
-        height: 630,
-        type: "image/png",
-        alt: "Liana Voinea — Web Design, Brand & SEO",
-      },
-    ],
+    // Scrie URL-ul complet direct ca string în array pentru a forța tag-ul curat
+    images: ["https://design.lianavoinea.com/assets/Liana-Voinea-Web-Design-Brand-SEO-og.png"],
   },
   twitter: {
     card: "summary_large_image",
     title: "Liana Voinea — Web Design, Brand & SEO",
     description:
       "Quick-start your digital presence in the age of AI. From Brand Identity and Web Design to SEO and GEO, build a system to find your ideal clients and thrive.",
-    images: ["/assets/Liana-Voinea-Web-Design-Brand-SEO-og.png"],
+    images: ["https://design.lianavoinea.com/assets/Liana-Voinea-Web-Design-Brand-SEO-og.png"],
   },
 }
 
