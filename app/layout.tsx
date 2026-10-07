@@ -4,7 +4,7 @@ import type { ReactNode } from "react"
 export const metadata: Metadata = {
   title: "Liana Voinea — Web Design, Brand & SEO",
   description:
-    "Portfolio of Liana Voinea, a Villeurbanne-based designer crafting elegant, user-centric websites, brands and SEO strategies that build trust and deliver real results.",
+    "Quick-start your digital presence in the age of AI. From Brand Identity and Web Design to SEO and GEO, build a system to find your ideal clients and thrive.",
   icons: {
     icon: "/favicon.png",
     apple: "/favicon.png",
