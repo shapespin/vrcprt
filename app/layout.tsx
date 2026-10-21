@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   },
   facebook: {
     appId: "1234567890", // Pune un ID real dacă ai cont Facebook Developer, sau un ID fictiv de 10-15 cifre
-  },
+  }
 }
 
 export const viewport: Viewport = {
